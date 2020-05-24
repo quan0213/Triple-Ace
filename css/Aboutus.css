@@ -9,7 +9,7 @@ html, body {
 
 header {
       width: 100%;
-      height: 100vh;
+      height: 100px;
       background: url() no-repeat 50% 50%;
       background-size: cover;
 }
@@ -85,6 +85,14 @@ nav ul li a:hover{
       width: 250px;
       height: 90px;
 }
+
+.tree{
+      margin-left: auto;
+      margin-right: auto;
+      width: 500px;
+      height: 500px;
+}
+
 
 @media(max-width: 786px) {
       .menu-icon i {
