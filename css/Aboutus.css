@@ -3,7 +3,7 @@ html, body {
       padding: 0;
       width: 100%;
       background-color: #deebdd;
-      background-image: url("dungngu.png");
+      background-image: url("dungngu.svg");
 }
 
 
@@ -45,7 +45,7 @@ nav ul {
 }
 
 .black{
-      background-color: transparent;
+      color : transparent;
 }
 
 nav.black ul {
