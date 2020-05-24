@@ -69,6 +69,7 @@ nav ul li a:hover{
 }
 
 .menu-icon {
+      padding-top: 35px;
       line-height: 60px;
       width: 100%;
       background: white;
@@ -115,7 +116,6 @@ nav ul li a:hover{
       }
 
       .menu-icon {
-            margin-top: 35px;
             display: block;
       }
 
