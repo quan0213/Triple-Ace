@@ -3,7 +3,7 @@ html, body {
       padding: 0;
       width: 100%;
       background-color: #deebdd;
-      background-image: url("dungngu.jpeg");
+      background-image: url("dungngu.png");
 }
 
 
@@ -86,7 +86,9 @@ nav ul li a:hover{
 }
 
 @media(max-width: 786px) {
-
+      .menu-icon i {
+            margin-top: 35px;
+      }
       .logo {
             position: fixed;
             top: 0;
@@ -115,7 +117,6 @@ nav ul li a:hover{
       }
 
       .menu-icon {
-            margin-top: 35px;
             display: block;
       }
 
