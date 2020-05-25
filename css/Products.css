@@ -13,7 +13,13 @@ header {
       background-size: cover;
       background-image: url("dungngu.png");
 }
-
+#img1{
+      /* padding-left: 0; */
+}
+.custom-col-1{
+      padding-left: 0 !important;
+      
+}
 
 .menu{
       overflow: hidden;
