@@ -2,7 +2,6 @@ html, body {
       margin: 0;
       padding: 0;
       width: 100%;
-      background-color: #deebdd;
       background-image: url("dungngu.png");
 }
 
@@ -12,6 +11,7 @@ header {
       height: 150px;
       background: url() no-repeat 50% 50%;
       background-size: cover;
+      background-image: url("dungngu.png");
 }
 
 
@@ -24,6 +24,7 @@ header {
       color: black;
 }
 
+
 nav {
       position: fixed;
       width: 100%;
@@ -33,9 +34,7 @@ nav {
 nav ul {
       line-height: 60px;
       list-style: none;
-      /*background: transparent;*/
       overflow: hidden;
-      color: black;
       padding: 0;
       text-align: right;
       margin: 0;
@@ -44,12 +43,12 @@ nav ul {
       padding-top: 10px;
 }
 
-/*.black{
-      background-color: transparent;
-}*/
+nav.black{
+      background-image: url(dungngu.png);
+      opacity: 1;
+}
 
 nav.black ul {
-      background: white ;
 }
 
 nav ul li {
@@ -104,14 +103,8 @@ nav ul li a:hover{
             top: 0;
             margin-top: 16px;
       }
-
       nav ul {
             max-height: 0px;
-            background: white ;
-      }
-
-      nav.black ul li a{
-            color: rgb(247, 197, 205);
       }
 
       .showing {
