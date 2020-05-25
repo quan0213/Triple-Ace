@@ -33,9 +33,9 @@ nav {
 nav ul {
       line-height: 60px;
       list-style: none;
-      /*background: transparent;*/
+      background: transparent;
       overflow: hidden;
-      color: black;
+      color: white;
       padding: 0;
       text-align: right;
       margin: 0;
@@ -44,9 +44,9 @@ nav ul {
       padding-top: 10px;
 }
 
-/*.black{
+.black{
       background-color: transparent;
-}*/
+}
 
 nav.black ul {
       background: white ;
@@ -85,14 +85,6 @@ nav ul li a:hover{
       width: 250px;
       height: 90px;
 }
-
-.tree{
-      display: flex;
-      width: 500px;
-      height: 500px;
-}
-
-
 
 
 @media(max-width: 786px) {
