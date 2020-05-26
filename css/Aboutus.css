@@ -104,8 +104,14 @@ nav ul li a:hover{
       height: 500px;
 }
 
+.container{
+      padding-top: 5%;
+      padding-left:500px ;
+}
 
-
+div h2{
+      font-weight: bold;
+}
 
 @media(max-width: 786px) {
       .menu-icon i {

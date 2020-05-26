@@ -13,7 +13,13 @@ header {
       background-size: cover;
       background-image: url("dungngu.png");
 }
-
+#img1{
+      /* padding-left: 0; */
+}
+.custom-col-1{
+      padding-left: 0 !important;
+      
+}
 
 .menu{
       overflow: hidden;
@@ -107,6 +113,19 @@ nav ul li a:hover{
       height: 250px;
 }
 
+.custom-col-2Ơ{
+      padding-left:10px  !important ;
+}
+
+.square1{
+      height: 160px;
+}
+
+.sqstyle{
+      font-family: cursive;
+      font-weight: bold;
+      margin-top: 55px;
+}
 
 @media(max-width: 786px) {
       .menu-icon i {
